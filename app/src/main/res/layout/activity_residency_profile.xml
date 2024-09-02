@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    tools:context=".ResidencyProfileActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="288dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="70dp"
+            android:text="@string/residency_profile"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonSubmit"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="32dp"
+            android:text="@string/submit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnBack" />
+
+        <ScrollView
+            android:id="@+id/scrollView4"
+            android:layout_width="368dp"
+            android:layout_height="639dp"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonSubmit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Question 1 -->
+
+                <!-- Question 2 -->
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:text="@string/_1_do_you_prefer_on_campus_or_off_campus_residence"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton1A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/on_campus"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton1B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/off_campus"
+                        android:textColor="@color/black" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_2_are_you_introverted_or_extroverted"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radioButton2A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/introverted"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/extroverted"
+                        android:textColor="@color/black" />
+                </RadioGroup>
+
+                <!-- Question 3 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_3_do_you_prefer_living_in_a_quiet_or_vibrant_area"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radioButton3A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/quiet_area"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton3B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vibrant_area"
+                        android:textColor="@color/black" />
+
+                </RadioGroup>
+
+                <!-- Question 4 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_4_are_you_a_fan_of_nightclubs"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radioButton4A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yes"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton4B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no"
+                        android:textColor="@color/black" />
+                </RadioGroup>
+
+                <!-- Question 5 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_5_do_you_like_reading_books"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radioButton5A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yes_"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton5B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no_"
+                        android:textColor="@color/black" />
+
+                </RadioGroup>
+
+                <!-- Question 6 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_6_do_you_like_to_play_music_on_headphones_or_speakers"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radioButton6A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/headphones"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton6B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/speakers"
+                        android:textColor="@color/black" />
+                </RadioGroup>
+
+                <!-- Question 7 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_7_religion"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editTextReligion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/enter_your_religion"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+                <!-- Question 8 -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_8_do_you_prefer_living_in_town_or_in_the_suburbs"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup8"
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/radioButton8A"
+                            android:layout_width="wrap_content"
+                            android:layout_height="37dp"
+                            android:text="@string/town"
+                            android:textColor="@color/black"
+                            app:layout_constraintEnd_toStartOf="@+id/radioButton8B"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton8B"
+                            android:layout_width="87dp"
+                            android:layout_height="32dp"
+                            android:text="@string/suburbs"
+                            android:textColor="@color/black"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/radioButton8A"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </RadioGroup>
+
+                <!-- Submit Button -->
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

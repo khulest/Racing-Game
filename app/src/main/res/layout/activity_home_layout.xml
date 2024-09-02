@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeLayoutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:cardCornerRadius="30dp"
+                >
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="467dp"
+                    android:background="@drawable/radius"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/res1"
+                    android:transitionName="scale_big" />
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="104dp"
+                    android:layout_marginEnd="-52dp"
+                    android:text="@string/textview"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/back_btn"
+                android:background="@drawable/circle"
+                android:backgroundTint="#CCCCCC"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"/>
+
+
+        </RelativeLayout>
+
+        <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="-40dp"
+            >
+
+            <TextView
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/corlo_court_residency_"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="150dp"
+                android:text="@string/durban_musgrave_heswall_road"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/corlo_court_residence_is_situated_in_durban_musgrave_area_specifically_on_hasswall_road_as_an_on_campus_residence_it_provides_a_secure_tranquil_and_conducive_environment_for_students_catering_to_a_diverse_student_population_it_offers_a_serene_atmosphere_ideal_for_those_seeking_a_quiet_living_space_within_the_campus_grounds"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp"
+                android:textColor="#B6B6B6"
+                android:textStyle="bold"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="330dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_marginStart="10dp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/radius"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:backgroundTint="#DFDFDF">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/bedroom"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bedroom"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_marginStart="20dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginStart="40dp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/radius"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:backgroundTint="#DFDFDF">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/bathroom"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="20dp"
+                            android:text="@string/bathroom"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/radius"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:backgroundTint="#DFDFDF">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@color/black"
+                            android:src="@android:drawable/ic_menu_slideshow" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/virtual_tour"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_marginStart="20dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="430dp"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/R3700_00"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/per_month_with_tax"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#9F9F9F"/>
+
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black"
+                    android:padding="20dp"
+                    android:text="@string/apply_now"
+                    android:textColor="#EFE9E9"
+                    android:textSize="20sp"
+                    app:cornerRadius="30dp" />
+
+            </LinearLayout>
+
+
+        </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

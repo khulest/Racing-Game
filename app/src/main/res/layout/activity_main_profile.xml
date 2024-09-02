@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wall"
+    tools:context=".MainProfileActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSave"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:layout_editor_absoluteX="-13dp">
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="405dp"
+            android:layout_height="556dp"
+            android:layout_marginBottom="38dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout"
+                    android:layout_width="413dp"
+                    android:layout_height="658dp">
+
+                    <TextView
+                        android:id="@+id/textViewName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginBottom="1dp"
+                        android:padding="16dp"
+                        android:text="@string/name_"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewSurname"
+                        app:layout_constraintEnd_toStartOf="@+id/editTextName"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <EditText
+                        android:id="@+id/editTextName"
+                        android:layout_width="294dp"
+                        android:layout_height="51dp"
+                        android:layout_marginTop="16dp"
+                        android:hint="@string/enter_name"
+                        android:inputType="text"
+                        android:padding="16dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/editTextSurname"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textViewName"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                    <TextView
+                        android:id="@+id/textViewSurname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:padding="16dp"
+                        android:text="@string/surname_"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toStartOf="@+id/editTextSurname"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+                    <EditText
+                        android:id="@+id/editTextSTD"
+                        android:layout_width="287dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="8dp"
+                        android:ems="10"
+                        android:hint="Student number"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/editTextContact"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textViewStdNum"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextSurname" />
+
+                    <EditText
+                        android:id="@+id/editTextSurname"
+                        android:layout_width="309dp"
+                        android:layout_height="53dp"
+                        android:layout_marginBottom="1dp"
+                        android:hint="@string/enter_surname"
+                        android:inputType="text"
+                        android:padding="16dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewStdNum"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/textViewSurname"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+                    <TextView
+                        android:id="@+id/textViewStdNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="7dp"
+                        android:padding="16dp"
+                        android:text="@string/student_no"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toStartOf="@+id/editTextSTD"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewSurname" />
+
+
+                    <TextView
+                        android:id="@+id/textViewContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="1dp"
+                        android:padding="16dp"
+                        android:text="@string/contact"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewEmail"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewStdNum" />
+
+                    <EditText
+                        android:id="@+id/editTextContact"
+                        android:layout_width="305dp"
+                        android:layout_height="59dp"
+                        android:layout_marginBottom="4dp"
+                        android:hint="@string/enter_contact"
+                        android:inputType="number"
+                        android:padding="16dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/textViewContact"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextSTD" />
+
+                    <TextView
+                        android:id="@+id/textViewEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="26dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="16dp"
+                        android:text="@string/email"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewCourse"
+                        app:layout_constraintEnd_toStartOf="@+id/editTextEmail"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewContact" />
+
+                    <EditText
+                        android:id="@+id/editTextEmail"
+                        android:layout_width="317dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="4dp"
+                        android:autofillHints=""
+                        android:hint="@string/enter_email"
+                        android:inputType="textEmailAddress"
+                        android:padding="16dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textIsSelectable="false"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/textViewEmail"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextContact" />
+
+                    <TextView
+                        android:id="@+id/textViewCourse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="24dp"
+                        android:padding="16dp"
+                        android:text="@string/course"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewFaculty"
+                        app:layout_constraintEnd_toStartOf="@+id/editTextCourse"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
+
+                    <EditText
+                        android:id="@+id/editTextCourse"
+                        android:layout_width="325dp"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="8dp"
+                        android:hint="@string/enter_course"
+                        android:inputType="text"
+                        android:padding="16dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/textViewCourse"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+                    <TextView
+                        android:id="@+id/textViewFaculty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="16dp"
+                        android:text="@string/faculty"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewDisability"
+                        app:layout_constraintEnd_toStartOf="@+id/spinnerFaculty"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewCourse" />
+
+                    <Spinner
+                        android:id="@+id/spinnerFaculty"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/white"
+                        android:hint="@string/faculty_"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/textViewFaculty"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextCourse" />
+
+                    <TextView
+                        android:id="@+id/textViewDisability"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="9dp"
+                        android:padding="16dp"
+                        android:text="@string/disability"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewGender"
+                        app:layout_constraintEnd_toStartOf="@+id/editTextDisability"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewFaculty" />
+
+                    <EditText
+                        android:id="@+id/editTextDisability"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:hint="@string/enter_disability"
+                        android:padding="16dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/spinnerGender"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textViewDisability"
+                        app:layout_constraintTop_toBottomOf="@+id/spinnerFaculty" />
+
+                    <TextView
+                        android:id="@+id/textViewGender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:padding="16dp"
+                        android:text="@string/gender"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewFullTime"
+                        app:layout_constraintEnd_toStartOf="@+id/spinnerGender"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewDisability" />
+
+                    <Spinner
+                        android:id="@+id/spinnerGender"
+                        android:layout_width="177dp"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/white"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.218"
+                        app:layout_constraintStart_toEndOf="@+id/textViewGender"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextDisability" />
+
+                    <TextView
+                        android:id="@+id/textViewFullTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginBottom="33dp"
+                        android:padding="16dp"
+                        android:text="@string/full_time_part_time"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/spinnerFullTime"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewGender" />
+
+                    <Spinner
+                        android:id="@+id/spinnerFullTime"
+                        android:layout_width="202dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/white"
+                        android:padding="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.383"
+                        app:layout_constraintStart_toEndOf="@+id/textViewFullTime"
+                        app:layout_constraintTop_toBottomOf="@+id/spinnerGender" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="148dp"
+            android:layout_height="61dp"
+
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="4dp"
+            android:text="Save"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.364"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="343dp"
+            android:layout_height="45dp"
+            android:text="@string/student_profile"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

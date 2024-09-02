@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_res"
+    tools:context=".Res4Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="412dp"
+        android:layout_height="728dp"
+        android:background="#5E000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="234dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/durban_musgrave_heswall_rd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="385dp"
+            android:layout_height="157dp"
+            android:layout_marginTop="32dp"
+            android:shadowColor="#8F121010"
+            android:text="@string/corlo_court_residency"
+            android:textColor="#A1FFFFFF"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView14"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout3"
+            android:layout_width="403dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/Tour"
+                android:layout_width="86dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="32dp"
+                android:contentDescription="@string/todo___"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/cardView2"
+                app:layout_constraintStart_toEndOf="@+id/Chartbox"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+            <Button
+                android:id="@+id/btn_Apply"
+                android:layout_width="91dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="24dp"
+                android:backgroundTint="#9C000000"
+                android:text="@string/apply"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/Home"
+                android:layout_width="65dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="8dp"
+                android:contentDescription="@string/todo_"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btn_Apply"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/Chartbox"
+                android:layout_width="88dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/_todo"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView2"
+                app:layout_constraintStart_toEndOf="@+id/Home"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/chat" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="387dp"
+                android:layout_height="101dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                app:cardBackgroundColor="#57FFFFFF"
+                app:cardCornerRadius="35dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="375dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="76dp"
+
+            app:cardBackgroundColor="#57FFFFFF"
+            app:cardCornerRadius="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_to_corlo_court_residence_where_tranquility_meets_academic_ambition_dive_into_a_serene_haven_designed_for_students_committed_to_achieving_greatness_our_peaceful_environment_fosters_uninterrupted_study_sessions_ensuring_optimal_focus_and_success_and_with_rates_starting_at_just_r5000_per_month_or_r45000_per_year_it_s_the_perfect_place_to_thrive_academically_without_breaking_the_bank"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

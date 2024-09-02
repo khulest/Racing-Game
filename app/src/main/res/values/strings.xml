@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">Student_Housing</string>
+    <string name="login">login</string>
+    <string name="create_account">create_account</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="log_in">Log_in</string>
+    <string name="student_housing">Student_housing</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="email_address">Email address</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <string name="signup">SignUp</string>
+    <string name="sign_up">sign_up</string>
+    <string name="find_the_perfect_residency">find_the_perfect_residency</string>
+    <string name="todo">todo_</string>
+    <string name="discover_the_best_residency_for_you">Discover the best residency for you</string>
+    <string name="suggested_for_you">suggested_for_you</string>
+    <string name="on_cumpus">on cumpus</string>
+    <string name="off_cumpus">off cumpus</string>
+    <string name="todo__">todo__</string>
+    <string name="corlo_court_residency">Corlo Court Residency</string>
+    <string name="steve_biko_residency">steve biko residency</string>
+    <string name="ayar_rock_residency">ayar rock residency</string>
+    <string name="find_the_perfect_residency_">Find the perfect residency</string>
+    <string name="textview">textview</string>
+    <string name="corlo_court_residency_">Corlo Court Residency</string>
+    <string name="durban_musgrave_heswall_road">durban musgrave heswall road</string>
+    <string name="corlo_court_residence_is_situated_in_durban_musgrave_area_specifically_on_hasswall_road_as_an_on_campus_residence_it_provides_a_secure_tranquil_and_conducive_environment_for_students_catering_to_a_diverse_student_population_it_offers_a_serene_atmosphere_ideal_for_those_seeking_a_quiet_living_space_within_the_campus_grounds">corlo court residence is situated in durban musgrave area specifically on hasswall road as an on campus residence it provides a secure tranquil and conducive environment for students catering to a diverse student population it offers a serene atmosphere ideal for those seeking a quiet living space within the campus grounds</string>
+    <string name="bedroom">bedroom</string>
+    <string name="bathroom">bathroom</string>
+    <string name="virtual_tour">virtual tour</string>
+    <string name="R3700_00">R3700_00</string>
+    <string name="per_month_with_tax">per month with tax</string>
+    <string name="apply_now">apply now</string>
+    <string name="student_housing_">Student Housing</string>
+    <string name="name_">Name:</string>
+    <string name="enter_name">Enter name</string>
+    <string name="surname_">Surname:</string>
+    <string name="enter_surname">Enter surname</string>
+    <string name="age">Age:</string>
+    <string name="enter_age">Enter age</string>
+    <string name="contact">Contact:</string>
+    <string name="enter_contact">Enter contact</string>
+    <string name="email">Email:</string>
+    <string name="enter_email">Enter email</string>
+    <string name="course">Course:</string>
+    <string name="enter_course">Enter course</string>
+    <string name="faculty">Faculty:</string>
+
+    <string name="disability">Disability:</string>
+    <string name="enter_disability">Enter disability</string>
+    <string name="gender">Gender:</string>
+    <string name="full_time_part_time">Full Time/Part Time:</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="student_profile">Student Profile</string>
+    <string name="faculty_">faculty</string>
+    <string name="next">Next</string>
+    <string name="residency_profile">Residency Profile</string>
+    <string name="_1_do_you_prefer_on_campus_or_off_campus_residence">1. Do you prefer on-campus or off-campus residence?</string>
+    <string name="on_campus">On-campus</string>
+    <string name="off_campus">Off-campus</string>
+    <string name="_2_are_you_introverted_or_extroverted">2. Are you introverted or extroverted?</string>
+    <string name="introverted">Introverted</string>
+    <string name="extroverted">Extroverted</string>
+    <string name="_3_do_you_prefer_living_in_a_quiet_or_vibrant_area">3. Do you prefer living in a quiet or vibrant area?</string>
+    <string name="quiet_area">Quiet area</string>
+    <string name="vibrant_area">Vibrant area</string>
+    <string name="_4_are_you_a_fan_of_nightclubs">4. Are you a fan of nightclubs?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="_5_do_you_like_reading_books">5. Do you like reading books?</string>
+    <string name="yes_">Yes</string>
+    <string name="no_">No</string>
+    <string name="_6_do_you_like_to_play_music_on_headphones_or_speakers">6. Do you like to play music on headphones or speakers?</string>
+    <string name="headphones">Headphones</string>
+    <string name="speakers">Speakers</string>
+    <string name="_7_religion">7. Religion?</string>
+    <string name="enter_your_religion">Enter your religion</string>
+    <string name="_8_do_you_prefer_living_in_town_or_in_the_suburbs">8. Do you prefer living in town or in the suburbs?</string>
+    <string name="town">Town</string>
+    <string name="suburbs">Suburbs</string>
+    <string name="submit">Submit</string>
+    <string name="durban_masgrave_problem_mkhize_rd">Durban,Masgrave,Problem Mkhize Rd</string>
+    <string name="disney_height_residence">Disney Height Residence</string>
+    <string name="apply">Apply</string>
+    <string name="todo_">TODO</string>
+    <string name="_todo">TODO</string>
+    <string name="winterton_residence_located_on_70_steve_biko_road_in_durban_perfect_for_introverts_this_on_campus_living_offers_tranquility_next_to_the_city_center_with_prices_starting_at_just_r3500_per_month_it_s_an_affordable_haven_for_those_valuing_privacy_and_convenience">Winterton Residence, located on 70 Steve Biko Road in Durban. Perfect for introverts, this on-campus living offers tranquility next to the city center. With prices starting at just R3500 per month, it\'s an affordable haven for those valuing privacy and convenience.</string>
+    <string name="to_do">TODO</string>
+    <string name="winterton">Winterton</string>
+    <string name="durban_berea_72_steve_biko_rd">Durban.Berea,72 Steve Biko Rd</string>
+    <string name="to__do">TODO</string>
+    <string name="welcome_to_disney_heights_located_in_the_vibrant_sydenham_area_of_durban_just_off_mallison_rd_our_community_offers_a_dynamic_and_diverse_environment_perfect_for_those_seeking_a_lively_atmosphere_with_plenty_of_diversity_despite_being_slightly_removed_from_the_city_center_sydenham_maintains_its_vibrancy_while_boasting_lower_crime_rates_ensuring_a_safe_and_comfortable_living_experience_with_rental_options_starting_at_just_r4000_per_month_or_an_annual_rate_of_r45_000_disney_heights_provides_affordable_accommodation_without_compromising_on_quality_come_and_join_us_at_disney_heights_to_experience_the_best_of_both_worlds">Welcome to Disney Heights, located in the vibrant Sydenham area of Durban, just off Mallison Rd. Our community offers a dynamic and diverse environment, perfect for those seeking a lively atmosphere with plenty of diversity. Despite being slightly removed from the city center, Sydenham maintains its vibrancy while boasting lower crime rates, ensuring a safe and comfortable living experience. With rental options starting at just R4000 per month or an annual rate of R45,000, Disney Heights provides affordable accommodation without compromising on quality. Come and join us at Disney Heights to experience the best of both worlds!</string>
+    <string name="disney_heights_nestled_in_durban_s_vibrant_sydenham_area_near_mallison_rd_offers_a_dynamic_living_environment_with_diverse_amenities_despite_its_location_slightly_outside_the_city_sydenham_boasts_a_vibrant_atmosphere_and_lower_crime_rates_ensuring_a_safe_and_enjoyable_experience_with_monthly_rents_starting_at_r4000_and_annual_rates_at_r45_000_disney_heights_provides_affordable_accommodation_without_compromising_quality">Disney Heights, nestled in Durban\'s vibrant Sydenham area near Mallison Rd, offers a dynamic living environment with diverse amenities. Despite its location slightly outside the city, Sydenham boasts a vibrant atmosphere and lower crime rates, ensuring a safe and enjoyable experience. With monthly rents starting at R4000 and annual rates at R45,000, Disney Heights provides affordable accommodation without compromising quality.</string>
+    <string name="disney_heights_located_in_sydenham_near_mallison_rd_in_durban_offers_a_lively_living_environment_with_diverse_amenities_despite_its_slightly_suburban_location_sydenham_maintains_a_vibrant_atmosphere_with_lower_crime_rates_ensuring_safety_and_enjoyment_with_affordable_monthly_rents_starting_at_r4000_and_annual_rates_at_r45_000_disney_heights_provides_quality_accommodation">Disney Heights, located in Sydenham near Mallison Rd in Durban, offers a lively living environment with diverse amenities. Despite its slightly suburban location, Sydenham maintains a vibrant atmosphere with lower crime rates, ensuring safety and enjoyment. With affordable monthly rents starting at R4000 and annual rates at R45,000, Disney Heights provides quality accommodation.</string>
+    <string name="todo___">TODO</string>
+    <string name="durban_musgrave_heswall_rd">Durban_musgrave_heswall_rd</string>
+    <string name="___todo">TODO</string>
+    <string name="winterton_residence_located_on_70_steve_biko_road_in_durban_perfect_for_introverts_this_on_campus_living_offers_tranquility_next_to_the_city_center_with_prices_starting_at_just_r3500_per_month_it_s_an_affordable_haven_for_those_valuing_privacy_and_convenience_">Winterton Residence, located on 70 Steve Biko Road in Durban. Perfect for introverts, this on-campus living offers tranquility next to the city center. With prices starting at just R3500 per month, it\'s an affordable haven for those valuing privacy and convenience.</string>
+    <string name="winterton_residence_located_on_70_steve_biko_road_in_durban_perfect_for_introverts_this_on_campus_living_offers_tranquility_next_to_the_city_center_with_prices_starting_at_just_r3500_per_month_it_s_an_affordable_haven_for_those_valuing_privacy_and_convenience___">Winterton Residence, located on 70 Steve Biko Road in Durban. Perfect for introverts, this on-campus living offers tranquility next to the city center. With prices starting at just R3500 per month, it\'s an affordable haven for those valuing privacy and convenience.</string>
+    <string name="durban_berea_king_dinizulu_rd">Durban,Berea,King Dinizulu Rd</string>
+    <string name="to___do">TODO</string>
+    <string name="winterton_residency">Winterton Resident</string>
+    <string name="durban_berea_72_steve_biko_rd_">Durban.Berea,72 Steve Biko Rd</string>
+    <string name="winterton_residence_located_on_70_steve_biko_road_in_durban_perfect_for_introverts_this_on_campus_living_offers_tranquility_next_to_the_city_center_with_prices_starting_at_just_r3500_per_month_it_s_an_affordable_haven_for_those_valuing_privacy_and__convenience">Winterton Residence, located on 70 Steve Biko Road in Durban. Perfect for introverts, this on-campus living offers tranquility next to the city center. With prices starting at just R3500 per month, it\'s an affordable haven for those valuing privacy and convenience.</string>
+    <string name="dut_student_housing">DUT Student Housing</string>
+    <string name="todo____">TODO</string>
+    <string name="sign_in">Sign_In</string>
+    <string name="quot_step_into_corlo_court_residence_where_a_serene_atmosphere_awaits_focused_students_dedicated_to_academic_excellence_embrace_a_tranquil_living_environment_tailored_for_uninterrupted_study_sessions_and_optimal_concentration_fostering_success_and_achievement_quot">\"Step into Corlo Court residence, where a serene atmosphere awaits focused students dedicated to academic excellence. Embrace a tranquil living environment tailored for uninterrupted study sessions and optimal concentration, fostering success and achievement.\"</string>
+    <string name="boombox_residence_provides_a_vibrant_and_lively_environment_where_students_can_have_fun_and_engage_in_social_activities_with_its_energetic_community_and_recreational_facilities_students_can_enjoy_a_dynamic_living_experience_filled_with_memorable_moments">BoomBox Residence provides a vibrant and lively environment where students can have fun and engage in social activities. With its energetic community and recreational facilities, students can enjoy a dynamic living experience filled with memorable moments.</string>
+    <string name="_275_dr_yusuf_dadoo_street_durban">275 Dr Yusuf Dadoo Street,Durban</string>
+    <string name="boombox_residence">BoomBox Residence</string>
+    <string name="experience_the_vibrant_living_environment_of_disney_heights_in_sydenham_durban_where_students_thrive_amidst_diverse_amenities_the_community_fosters_a_dynamic_atmosphere_perfect_for_students_seeking_an_exciting_and_engaging_lifestyle">Experience the vibrant living environment of Disney Heights in Sydenham, Durban, where students thrive amidst diverse amenities. The community fosters a dynamic atmosphere, perfect for students seeking an exciting and engaging lifestyle.</string>
+    <string name="corlo_court_residence_where_a_serene_atmosphere_awaits_focused_students_dedicated_to_academic_excellence_embrace_a_tranquil_living_environment_tailored_for_uninterrupted_study_sessions_and_optimal_concentration_fostering_success_and_achievement">Corlo_court_residence_where_a_serene_atmosphere_awaits_focused_students_dedicated_to_academic_excellence_embrace_a_tranquil_living_environment_tailored_for_uninterrupted_study_sessions_and_optimal_concentration_fostering_success_and_achievement.</string>
+    <string name="welcome_to_corlo_court_residence_where_tranquility_meets_academic_ambition_dive_into_a_serene_haven_designed_for_students_committed_to_achieving_greatness_our_peaceful_environment_fosters_uninterrupted_study_sessions_ensuring_optimal_focus_and_success_and_with_rates_starting_at_just_r5000_per_month_or_r45000_per_year_it_s_the_perfect_place_to_thrive_academically_without_breaking_the_bank">Welcome to Corlo Court Residence, where tranquility meets academic ambition! Dive into a serene haven designed for students committed to achieving greatness. Our peaceful environment fosters uninterrupted study sessions, ensuring optimal focus and success. And with rates starting at just R5000 per month or R45000 per year, it\'s the perfect place to thrive academically without breaking the bank.</string>
+    <string name="boombox_residence_offers_an_electrifying_atmosphere_where_students_can_immerse_themselves_in_fun_filled_social_activities_with_its_vibrant_community_and_recreational_facilities_students_can_enjoy_an_enriching_living_experience_brimming_with_memorable_moments_additionally_with_options_including_singles_and_double_sleepers_students_can_find_the_perfect_accommodation_to_suit_their_needs_and_with_prices_starting_at_just_r4500_per_month_or_r40000_per_year_it_s_an_affordable_gateway_to_an_exciting_lifestyle">BoomBox Residence offers an electrifying atmosphere where students can immerse themselves in fun-filled social activities. With its vibrant community and recreational facilities, students can enjoy an enriching living experience brimming with memorable moments. Additionally, with options including singles and double sleepers, students can find the perfect accommodation to suit their needs. And with prices starting at just R4500 per month or R40000 per year, it\'s an affordable gateway to an exciting lifestyle.</string>
+    <string name="boombox_residence_offers_a_vibrant_and_lively_environment_where_students_can_have_fun_and_engage_in_social_activities_with_its_energetic_community_and_recreational_facilities_students_can_enjoy_a_dynamic_living_experience_filled_with_memorable_moments">BoomBox Residence offers a vibrant and lively environment where students can have fun and engage in social activities. With its energetic community and recreational facilities, students can enjoy a dynamic living experience filled with memorable moments.</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="faculty_array">
+        <item>Accounting and Informatics</item>
+        <item>Engineering and built environment</item>
+        <item>Art and Design</item>
+        <item>Applied Science</item>
+        <item>Health Science</item>
+        <item>Management science</item>
+    </string-array>
+
+    <string-array name="full_time_array">
+        <item>Full Time</item>
+        <item>Part Time</item>
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="student_no">Student no :</string>
+    <string name="back">Back</string>
+    <string name="welcome_to_student_accommodation_chatbot">Welcome to Student Accommodation Chatbot</string>
+    <string name="type_your_message_here">Type your message here</string>
+    <string name="__todo">TODO</string>
+    <string name="hello_world">Hello world</string>
+    <string name="hello_world_">Hello world</string>
+    <string name="welcome_to_easy_chatgpt_ntry_it_out_now">Welcome to Easy ChatGPT\nTry it out now</string>
+    <string name="write_here">Write here</string>
+    <string name="tod_o">TODO</string>
+    <string name="search">Search</string>
+    <string name="residence_search">Residence Search</string>
+    <string name="search_">Search</string>
+    <string name="welcome_to_residence_search_here_we_have_info_about_resedences">Welcome to Residence search here we have info about resedences</string>
+
+</resources>

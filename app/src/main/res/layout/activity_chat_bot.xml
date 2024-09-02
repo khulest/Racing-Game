@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/computer"
+    tools:context=".ChatBotActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="411dp"
+        android:layout_height="497dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPrompt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtResults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="44dp"
+                android:text="@string/welcome_to_residence_search_here_we_have_info_about_resedences"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSubmit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <EditText
+        android:id="@+id/editTextPrompt"
+        android:layout_width="296dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/search_btn"
+        android:drawableTint="@color/white"
+        android:ems="10"
+        android:hint="@string/search_"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:textAlignment="inherit"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="257dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="22dp"
+
+        android:backgroundTint="@color/black"
+        android:drawablePadding="10dp"
+        android:text="@string/residence_search"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="96dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="38dp"
+        android:background="#03A9F4"
+        android:text="@string/search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextPrompt"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
