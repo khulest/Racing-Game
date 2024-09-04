@@ -36,7 +36,7 @@ class ChatBotActivity : AppCompatActivity() {
             val generativeModel = GenerativeModel(
                     // For text-only input, use the gemini-pro model
                     modelName = "gemini-pro",
-                    apiKey = "AIzaSyCsgV40w1aP2j-j47baWIpaCqU6JfJY4TE"
+                    apiKey = "####"
             )
             runBlocking {
                 val response = generativeModel.generateContent(prompt)
